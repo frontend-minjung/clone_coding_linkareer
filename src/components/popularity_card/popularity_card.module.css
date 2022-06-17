@@ -1,0 +1,47 @@
+@value fontGray, buttonGray, cardBorder from '/styles/colors.css';
+
+.title {
+    margin-bottom: 1.2em;
+}
+
+.company {
+    margin-bottom: 0.5em;
+}
+
+.info {
+    display: flex;
+}
+
+.info li {
+    color: fontGray;
+    margin-right: 0.5em;
+}
+
+.imageButton {
+    padding: 0.5em;
+    background-color: buttonGray;
+    color: white;
+    border-radius: 0.2em;
+}
+
+.imageButton > span {
+    margin-left: 0.2em;
+}
+.title {
+    display: block;
+    font-weight: bold;
+}
+
+.image {
+    position: relative;
+    display: inline-block;
+    border: 1px solid cardBorder;
+    border-radius: 0.25em;
+    margin-bottom: 1em;
+}
+
+.image > button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}

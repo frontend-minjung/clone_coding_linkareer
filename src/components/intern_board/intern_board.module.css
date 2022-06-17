@@ -1,0 +1,25 @@
+@value colorWhite from '/styles/colors.css';
+
+.container {
+    background-color: colorWhite;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2em;
+}
+
+.headerTitle {
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 0.5em;
+}
+
+.button {
+    font-size: 1.2em;
+}
+
+.button > span {
+    margin-right: 0.5em;
+}

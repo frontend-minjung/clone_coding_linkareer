@@ -1,0 +1,24 @@
+@value lightGray, mediumGray from '/styles/colors.css';
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: lightGray;
+    padding: 10px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+.copyright {
+    color: mediumGray;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.link {
+    font-weight: bold;
+}

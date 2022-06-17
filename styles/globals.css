@@ -11,6 +11,22 @@ a {
   text-decoration: none;
 }
 
+button {
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 * {
   box-sizing: border-box;
 }

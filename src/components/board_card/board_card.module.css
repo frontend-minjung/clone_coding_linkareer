@@ -1,0 +1,49 @@
+@value colorWhite, cardBorder,fontGray from '/styles/colors.css';
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    padding: 0em 1em;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1em;
+    border-bottom: 1px solid cardBorder;
+}
+
+.title {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.writer {
+    font-weight: bold;
+}
+
+.writer,
+.view,
+.recommend {
+    margin-right: 0.5em;
+    font-size: 1em;
+}
+
+.writerInfo, .boardInfo {
+    margin-top: 0.3em;
+}
+
+.writerInfo > span,
+.boardInfo > span {
+    color: fontGray;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.comment {
+    margin-left: 1em;
+    background-color: lightgray;
+    border-radius: 0.5em;
+}

@@ -1,0 +1,29 @@
+@value headerBlue, fontGray, colorWhite from '/styles/colors.css';
+
+.header {
+    background-color: headerBlue;
+    display: flex;
+    flex-direction: column;
+    padding: 0.3rem;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between; 
+    color: colorWhite;
+    font-size: 1.2rem;
+}
+
+.button {
+    font-size: 1.2rem;
+    color: colorWhite;
+}
+
+.items {
+    display: flex;
+}
+
+.items li {
+    margin-right: 1em;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+@value backgroundGray,fontGray, colorBlack from '/styles/colors.css';
+
+.menubar {
+    background-color: backgroundGray;
+    display: flex;
+    justify-content: space-between;
+    padding: 0em 1.5em;
+}
+
+.menu {
+    display: flex;
+    font-size: 1.3em;
+}
+
+.menu li {
+    margin-right: 2em;
+    color: fontGray;
+}
+
+.bookmark {
+    font-weight: bold;
+    color: colorBlack;
+}
+
+.button {
+    font-size: 1.3em;
+}

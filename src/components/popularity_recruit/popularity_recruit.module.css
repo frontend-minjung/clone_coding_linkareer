@@ -1,0 +1,21 @@
+@value fontGray, colorWhite from '/styles/colors.css';
+
+.section {
+    background-color: colorWhite;
+    padding: 1rem;
+    overflow: scroll;
+}
+
+.headerTitle {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.items {
+    display: flex;
+    flex-basis: 90%;
+}
+
+.items > li {
+    margin-right: 1.5em;
+}
