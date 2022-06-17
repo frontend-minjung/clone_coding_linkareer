@@ -1,73 +1,75 @@
 @value mediumGray, colorWhite,cardBorder, fontGray from '/styles/colors.css';
+.container {
+}
 
 .cards {
-    display: flex;
-    border-bottom: 1px solid cardBorder;
+  display: flex;
+  border-bottom: 1px solid cardBorder;
 }
 
 .card {
-    display: flex;
+  display: flex;
+  flex: 1;
 }
 
 .wrapper {
-    margin-right: 1.5em;
+  margin-right: 1.5em;
 }
 
 .category {
-    font-size: 1.1em;
-    background-color: fontGray;
-    color: colorWhite;
-    border-radius: 0.2em;
-    margin-right: 0.1em;
-    margin-bottom: 0.1em;
+  font-size: 1.1em;
+  background-color: fontGray;
+  color: colorWhite;
+  border-radius: 0.2em;
+  margin-right: 0.1em;
+  margin-bottom: 0.1em;
 }
 
 .name {
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
 
 .position {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 .item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 10em;
+  flex: 2;
 }
 
 .info {
-    display: flex;
+  display: flex;
 }
 
 .info > li {
-    font-size: 1.1em;
-    margin-right: 0.5em;
+  font-size: 1.1em;
+  margin-right: 0.5em;
 }
 
-
 .bookmark {
-    font-size: 1.1em;
-    color: cardBorder;
+  font-size: 1.1em;
+  color: cardBorder;
 }
 
 .bookmark > p {
-    margin-top: 0.5em;
-    color: mediumGray;
+  margin-top: 0.5em;
+  color: mediumGray;
 }
 
 @media screen and (max-width: 768px) {
-
-    .company > .category,
-    .company > .name {
-        font-size: 0.9em;
-    }
-
-    .position {
-      font-size: 1em;
-    }
-    .info > li {
-        font-size: 0.9em;
-    }
+  .company > .category,
+  .company > .name {
+    font-size: 0.9em;
   }
+
+  .position {
+    font-size: 1em;
+  }
+  .info > li {
+    font-size: 0.9em;
+  }
+}

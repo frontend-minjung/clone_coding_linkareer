@@ -18,8 +18,9 @@ const activityInfoCard = ({ activity }) => {
       <ul className={styles.cards}>
         <li className={styles.card}>
           {/* image */}
-          <div className={styles.wrapper}></div>
-          <img src="https://picsum.photos/150" />
+          <div className={styles.wrapper}>
+            <img src="https://picsum.photos/150" />
+          </div>
           {/* info */}
           <div className={styles.item}>
             <div className={styles.company}>
