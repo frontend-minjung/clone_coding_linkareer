@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './activity_info_card.module.css'
 
-const activityInfoCard = ({ activity }) => {
+const ActivityInfoCard = ({ activity }) => {
   const {
     id,
     activity_category,
@@ -58,4 +58,4 @@ const activityInfoCard = ({ activity }) => {
   )
 }
 
-export default activityInfoCard
+export default ActivityInfoCard

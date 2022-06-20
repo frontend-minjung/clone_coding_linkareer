@@ -1,12 +1,12 @@
 import React from 'react'
-import styles from './search.module.css';
+import styles from './search.module.css'
 
-const search = () => {
+const Search = () => {
   return (
     <div className={styles.search}>
-        <input className={styles.input} type="text"/>
+      <input className={styles.input} type="text" />
     </div>
   )
 }
 
-export default search
+export default Search
